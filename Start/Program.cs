@@ -29,7 +29,7 @@ namespace Start
                 Console.Write(item);
                 Console.Write("  ");
             }
-
+            Console.WriteLine();
         }
     }
 }
