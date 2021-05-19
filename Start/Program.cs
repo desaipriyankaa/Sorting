@@ -8,11 +8,13 @@ namespace Start
         static void Main(string[] args)
         {
             List<string> list = new List<string>
-            { 
+            {
                 "priyanka",
+                "priyank",
                 "Suraj",
                 "vishu",
-                "Raj"
+                "Raj",
+                "sunita"
             };
             Console.WriteLine("Not sorted list :");
             foreach (var item in list)
@@ -20,13 +22,14 @@ namespace Start
                 Console.Write(item);
                 Console.Write("  ");
             }
-            Console.WriteLine("\nSorted list :");
+            Console.WriteLine("\n\nSorted list :");
             list.Sort((left, right) => left.CompareTo(right));
             foreach (var item in list)
             {
                 Console.Write(item);
                 Console.Write("  ");
             }
+
         }
     }
 }
