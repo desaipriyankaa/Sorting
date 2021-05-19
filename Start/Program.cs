@@ -7,9 +7,12 @@ namespace Start
     {
         static void Main(string[] args)
         {
-            List<int> list = new List<int>
+            List<string> list = new List<string>
             { 
-                6,3,1,9,4,8
+                "priyanka",
+                "Suraj",
+                "vishu",
+                "Raj"
             };
             Console.WriteLine("Not sorted list :");
             foreach (var item in list)
